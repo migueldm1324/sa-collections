@@ -1,0 +1,14 @@
+<div class="collections-container">
+  <nav>
+    <ul>
+      <li *ngFor="let collection of collections">
+        <a
+          [title]="collection?.name"
+          [routerLink]="[collection?.url]">
+          {{ collection?.name }}
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
