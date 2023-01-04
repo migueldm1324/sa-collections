@@ -1,0 +1,4 @@
+{
+  "/:userId/:resource": "/:resource?userId=:userId",
+  "/:userId/:category/:resource": "/:resource?userId=:userId&category=:category"
+}

@@ -1,0 +1,153 @@
+{
+  "collections": [{
+    "userId": "u1",
+    "id": "1",
+    "name": "Coins",
+    "url": "./coins"
+  }, {
+    "userId": "u1",
+    "id": "2",
+    "name": "Books",
+    "url": "./books"
+  }, {
+    "userId": "u1",
+    "id": "3",
+    "name": "Movies",
+    "url": "./movies"
+  }, {
+    "userId": "u2",
+    "id": "4",
+    "name": "Series",
+    "url": "./series"
+  }],
+  "books": [{
+    "userId": "u1",
+    "id": "b1",
+    "titleId": "tb1"
+  },{
+    "userId": "u1",
+    "id": "b2",
+    "titleId": "tb2"
+  },{
+    "userId": "u1",
+    "id": "b3",
+    "titleId": "tb3"
+  },{
+    "userId": "u2",
+    "id": "b4",
+    "titleId": "tb4"
+  },{
+    "userId": "u2",
+    "id": "b5",
+    "titleId": "tb5"
+  },{
+    "userId": "u2",
+    "id": "b6",
+    "titleId": "tb6"
+  }],
+  "coins": [{
+    "userId": "u1",
+    "id": "c1",
+    "titleId": "tc1"
+  },{
+    "userId": "u1",
+    "id": "c2",
+    "titleId": "tc2"
+  },{
+    "userId": "u1",
+    "id": "c3",
+    "titleId": "tc3"
+  },{
+    "userId": "u2",
+    "id": "c4",
+    "titleId": "tc4"
+  },{
+    "userId": "u2",
+    "id": "c5",
+    "titleId": "tc5"
+  },{
+    "userId": "u2",
+    "id": "c6",
+    "titleId": "tc6"
+  }],
+  "movies": [{
+    "userId": "u1",
+    "id": "m1",
+    "titleId": "tm1"
+  },{
+    "userId": "u1",
+    "id": "m2",
+    "titleId": "tm2"
+  },{
+    "userId": "u1",
+    "id": "m3",
+    "titleId": "tm3"
+  },{
+    "userId": "u2",
+    "id": "m4",
+    "titleId": "tm4"
+  },{
+    "userId": "u2",
+    "id": "m5",
+    "titleId": "tm5"
+  },{
+    "userId": "u2",
+    "id": "m6",
+    "titleId": "tm6"
+  }],
+  "titles": [{
+    "userId": "u1",
+    "category": "books",
+    "id": "tb1",
+    "bookId": "b1",
+    "title": "Da Vinci's Code"
+  },{
+    "userId": "u1",
+    "category": "books",
+    "id": "tb2",
+    "bookId": "b2",
+    "title": "The Ingenious Gentleman Don Quixote of La Mancha"
+  },{
+    "userId": "u1",
+    "category": "books",
+    "id": "tb3",
+    "bookId": "b3",
+    "title": "The Alchemist"
+  },{
+    "userId": "u1",
+    "category": "coins",
+    "id": "tc1",
+    "bookId": "c1",
+    "title": "American Penny"
+  },{
+    "userId": "u1",
+    "category": "coins",
+    "id": "tc2",
+    "bookId": "c2",
+    "title": "Mexican Peso"
+  },{
+    "userId": "u1",
+    "category": "coins",
+    "id": "tc3",
+    "bookId": "c3",
+    "title": "Spanish Peseta"
+  },{
+    "userId": "u1",
+    "category": "movies",
+    "id": "tm1",
+    "bookId": "m1",
+    "title": "Your Name"
+  },{
+    "userId": "u1",
+    "category": "movies",
+    "id": "tm2",
+    "bookId": "m2",
+    "title": "Chihiro's Journey"
+  },{
+    "userId": "u1",
+    "category": "movies",
+    "id": "tm3",
+    "bookId": "m3",
+    "title": "Jujutsu Kaisen 0"
+  }]
+}
