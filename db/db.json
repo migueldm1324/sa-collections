@@ -1,4 +1,13 @@
 {
+  "users": [{
+    "id": "u1",
+    "fullName": "Miguel Delgado",
+    "username": "mad"
+  },{
+    "id": "u2",
+    "fullName": "Angel Martinez",
+    "username": "adm"
+  }],
   "collections": [{
     "userId": "u1",
     "id": "1",

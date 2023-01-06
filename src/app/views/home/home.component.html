@@ -1,0 +1,11 @@
+<div>
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <h2>SET A USERNAME</h2>
+    <input
+      type="text"
+      formControlName="username"
+      placeholder="Username"
+    />
+    <button type="submit">Submit</button>
+  </form>
+</div>

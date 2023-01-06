@@ -2,12 +2,10 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
   padding: 15px 25px;
   background-color: navy;
 
   nav {
-    width: 100%;
     padding: 15px;
 
     ul {
@@ -37,5 +35,10 @@ header {
       }
 
     }
+  }
+
+  p {
+    padding: 15px 0;
+    color: white;
   }
 }

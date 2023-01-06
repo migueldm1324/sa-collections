@@ -3,11 +3,12 @@
     <ul>
       <li>
         <a
-          title="collections"
-          [routerLink]="['/collections']">
-          Collections
+          title="home"
+          [routerLink]="['/']">
+          Home
         </a>
       </li>
     </ul>
   </nav>
+  <p *ngIf="user">{{ user.fullName }}</p>
 </header>
