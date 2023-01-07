@@ -13,11 +13,13 @@ import { HomeComponent } from './views/home/home.component';
 
 // Components
 import { HeaderComponent } from './components/header/header.component';
+import { ItemComponent } from './components/item/item.component';
 
 // Services
 import { CollectionsService } from './services/collections.service';
 import { UserService } from './services/user.service';
 import { ItemsService } from './services/items.service';
+import { TitlesService } from './services/titles.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { ItemsService } from './services/items.service';
     CollectionsComponent,
     CollectionDetailComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { ItemsService } from './services/items.service';
   providers: [
     CollectionsService,
     UserService,
-    ItemsService
+    ItemsService,
+    TitlesService
   ],
   bootstrap: [AppComponent]
 })

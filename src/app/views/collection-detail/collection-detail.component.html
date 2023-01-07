@@ -1,2 +1,2 @@
 <h1>{{ title | titlecase }}</h1>
-<pre>{{ items | json }}</pre>
+<item *ngFor="let item of composedItems" [item]="item"></item>

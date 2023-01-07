@@ -108,55 +108,55 @@
     "userId": "u1",
     "category": "books",
     "id": "tb1",
-    "bookId": "b1",
+    "itemId": "b1",
     "title": "Da Vinci's Code"
   },{
     "userId": "u1",
     "category": "books",
     "id": "tb2",
-    "bookId": "b2",
+    "itemId": "b2",
     "title": "The Ingenious Gentleman Don Quixote of La Mancha"
   },{
     "userId": "u1",
     "category": "books",
     "id": "tb3",
-    "bookId": "b3",
+    "itemId": "b3",
     "title": "The Alchemist"
   },{
     "userId": "u1",
     "category": "coins",
     "id": "tc1",
-    "bookId": "c1",
+    "itemId": "c1",
     "title": "American Penny"
   },{
     "userId": "u1",
     "category": "coins",
     "id": "tc2",
-    "bookId": "c2",
+    "itemId": "c2",
     "title": "Mexican Peso"
   },{
     "userId": "u1",
     "category": "coins",
     "id": "tc3",
-    "bookId": "c3",
+    "itemId": "c3",
     "title": "Spanish Peseta"
   },{
     "userId": "u1",
     "category": "movies",
     "id": "tm1",
-    "bookId": "m1",
+    "itemId": "m1",
     "title": "Your Name"
   },{
     "userId": "u1",
     "category": "movies",
     "id": "tm2",
-    "bookId": "m2",
+    "itemId": "m2",
     "title": "Chihiro's Journey"
   },{
     "userId": "u1",
     "category": "movies",
     "id": "tm3",
-    "bookId": "m3",
+    "itemId": "m3",
     "title": "Jujutsu Kaisen 0"
   }]
 }
