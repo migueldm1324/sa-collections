@@ -28,6 +28,16 @@
     "id": "4",
     "name": "Series",
     "url": "./series"
+  }, {
+    "userId": "u2",
+    "id": "5",
+    "name": "Stickers",
+    "url": "./stickers"
+  }, {
+    "userId": "u2",
+    "id": "3",
+    "name": "Movies",
+    "url": "./movies"
   }],
   "books": [{
     "userId": "u1",
@@ -41,18 +51,6 @@
     "userId": "u1",
     "id": "b3",
     "titleId": "tb3"
-  },{
-    "userId": "u2",
-    "id": "b4",
-    "titleId": "tb4"
-  },{
-    "userId": "u2",
-    "id": "b5",
-    "titleId": "tb5"
-  },{
-    "userId": "u2",
-    "id": "b6",
-    "titleId": "tb6"
   }],
   "coins": [{
     "userId": "u1",
@@ -66,18 +64,6 @@
     "userId": "u1",
     "id": "c3",
     "titleId": "tc3"
-  },{
-    "userId": "u2",
-    "id": "c4",
-    "titleId": "tc4"
-  },{
-    "userId": "u2",
-    "id": "c5",
-    "titleId": "tc5"
-  },{
-    "userId": "u2",
-    "id": "c6",
-    "titleId": "tc6"
   }],
   "movies": [{
     "userId": "u1",
@@ -103,6 +89,32 @@
     "userId": "u2",
     "id": "m6",
     "titleId": "tm6"
+  }],
+  "series": [{
+    "userId": "u2",
+    "id": "s1",
+    "titleId": "ts1"
+  },{
+    "userId": "u2",
+    "id": "s2",
+    "titleId": "ts2"
+  },{
+    "userId": "u2",
+    "id": "s3",
+    "titleId": "ts3"
+  }],
+  "stickers": [{
+    "userId": "u2",
+    "id": "st1",
+    "titleId": "tst1"
+  },{
+    "userId": "u2",
+    "id": "st2",
+    "titleId": "tst2"
+  },{
+    "userId": "u2",
+    "id": "st3",
+    "titleId": "tst3"
   }],
   "titles": [{
     "userId": "u1",
@@ -158,5 +170,59 @@
     "id": "tm3",
     "itemId": "m3",
     "title": "Jujutsu Kaisen 0"
+  },{
+    "userId": "u2",
+    "category": "movies",
+    "id": "tm4",
+    "itemId": "m4",
+    "title": "The Pursuit of Happyness"
+  },{
+    "userId": "u2",
+    "category": "movies",
+    "id": "tm5",
+    "itemId": "m5",
+    "title": "Avatar"
+  },{
+    "userId": "u2",
+    "category": "movies",
+    "id": "tm6",
+    "itemId": "m6",
+    "title": "La La Land"
+  },{
+    "userId": "u2",
+    "category": "series",
+    "id": "ts1",
+    "itemId": "s1",
+    "title": "Friends"
+  },{
+    "userId": "u2",
+    "category": "series",
+    "id": "ts2",
+    "itemId": "s2",
+    "title": "Fullmetal Alchemist: Brotherhood"
+  },{
+    "userId": "u2",
+    "category": "series",
+    "id": "ts3",
+    "itemId": "s3",
+    "title": "Haikyuu!!"
+  },{
+    "userId": "u2",
+    "category": "stickers",
+    "id": "tst1",
+    "itemId": "st1",
+    "title": "FIFA World Cup Qatar 2022"
+  },{
+    "userId": "u2",
+    "category": "stickers",
+    "id": "tst2",
+    "itemId": "st2",
+    "title": "Harry Potter"
+  },{
+    "userId": "u2",
+    "category": "stickers",
+    "id": "tst3",
+    "itemId": "st3",
+    "title": "Dragon Ball"
   }]
 }

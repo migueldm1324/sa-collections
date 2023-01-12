@@ -14,6 +14,7 @@ const routes: Routes = [
       { path: 'movies', component: CollectionDetailComponent },
       { path: 'books', component: CollectionDetailComponent },
       { path: 'series', component: CollectionDetailComponent },
+      { path: 'stickers', component: CollectionDetailComponent }
     ]
   },
   { path: '**', redirectTo: '' }

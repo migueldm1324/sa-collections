@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 import { Collection } from '../../models/collection.model';
 import { CollectionsService } from 'src/app/services/collections.service';
 import { UserService } from 'src/app/services/user.service';
@@ -19,7 +20,9 @@ export class CollectionsComponent implements OnInit, OnDestroy {
   
   constructor(
     private collectionsService: CollectionsService,
-    private userService: UserService
+    private userService: UserService,
+    private router: Router,
+    private route: ActivatedRoute
   ) {
     this.user = this.userService.getUser();
     if (this.user) {
@@ -28,6 +31,9 @@ export class CollectionsComponent implements OnInit, OnDestroy {
         .subscribe(data => {
           console.log(this.logger, 'Collections fetched');
           this.collections = data;
+          if (this.collections[0]) {
+            this.router.navigate([this.collections[0].url], { relativeTo: this.route });
+          }
         });
     }
   }
